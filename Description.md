@@ -17,4 +17,6 @@ they appear in the respective tweet.
     textN  0   0   1   1   0   2
 ```
    Basically, the bag of words moddel will be a matrix with __N__ columns and __n__ rows (where n is the number of tweets in the testing/training file).
+   Next, we will feed a *Naive Bayes* model with the shuffled data, after we make a split in the training data, because we need to validate the training of the machine.
+   Finally, the machine will predict the outcome for the __n__ tweets from testing. The output will be in the *predictii.csv* file, that will be uploaded on kaggle in order to see the f1 score. The closer to 1 the score is, the better!
    
